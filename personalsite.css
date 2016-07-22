@@ -8,6 +8,7 @@ body{
 a{
     color:black;
     text-decoration: none;
+    margin:0;
 }
 .linkbutton{
     background-color:#A7DBD8;    
@@ -22,6 +23,7 @@ a{
     vertical-align: center;
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
     
 
 }
@@ -44,7 +46,7 @@ a{
     
 }
 
-a div span{
+div span{
     color : black;
     position:relative;
     top:33%;
