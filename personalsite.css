@@ -92,9 +92,13 @@ span{
 }
 #aboutme h3{
     font-family: Arial Black;
+    margin: 5px 0 15px 10px;
 }
 #aboutme p {
-    font-family: monospace;
-    font-weight:bold;
-    margin: 5px 0 10px 20px;
+    font-family: "Roboto";
+    margin: 5px 0 15px 20px;
+}
+#aboutme table{
+    font-family: "Roboto";
+    margin: 5px 0 15px 20px;
 }
