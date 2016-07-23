@@ -93,3 +93,8 @@ span{
 #aboutme h3{
     font-family: Arial Black;
 }
+#aboutme p {
+    font-family: monospace;
+    font-weight:bold;
+    margin: 5px 0 10px 20px;
+}
