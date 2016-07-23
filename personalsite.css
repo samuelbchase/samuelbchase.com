@@ -96,9 +96,11 @@ span{
 }
 #aboutme p {
     font-family: "Roboto";
+    font-size: 1em;
     margin: 5px 0 15px 20px;
 }
 #aboutme table{
     font-family: "Roboto";
+    font-size: 1em;
     margin: 5px 0 15px 20px;
 }
