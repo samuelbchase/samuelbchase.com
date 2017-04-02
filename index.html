@@ -1,77 +1,155 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>samuelbchase.com</title>
-    <link rel="stylesheet" type="text/css" href="personalsite.css">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Samuel B Chase</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
-<!--- body ---->
 <body>
-    <div class=banner> <span >&nbsp Samuel B Chase</span></div>
-    <div id="aboutme">
-        
-        <h4>&nbsp About me:</h4>
-        <p> I'm a sophomore studying Computer Science,
-            currently employed with Space Exploration technologies
-            <br>
-        <h4>&nbsp Projects:</h4>
-         <ul>
-            <li>I've created a basic web server in C with Beej Jorgensen's simple_net</li>
-            <li>I've created a program functionally similar to Make</li>
-            <li>I've made a website for Cal Poly's PolyCon board game club</li>
-            <li>I've made database interfacing applications with PHP</li>
-            <li>I've made a stock analysis application in R</li>
-        </ul>
-        </p>
-        <h4> &nbsp Languages & Technologies:</h4> 
-        <table style="width:20%">
-            <tr>
-                <td>Java</td>
-                <td>-</td>
-                <td>Skilled</td> 
-            </tr>
-            <tr>
-                <td>Bash</td>
-                <td>-</td> 
-                <td>Proficient</td>
-            </tr>
-             <tr>
-                <td>C#</td>
-                <td>-</td> 
-                <td>Proficent</td>
-            </tr>           
-            <tr>
-                <td>ANSI C</td>
-                <td>-</td> 
-                <td>Proficient</td>
-            </tr>   
-            <tr>
-                <td>HTML/CSS</td>
-                <td>-</td> 
-                <td>Proficient</td>
-            </tr>  
-            <tr>
-                <td>PHP</td>
-                <td>-</td> 
-                <td>Familiar</td>
-            </tr>  
-            <tr>
-                <td>Javascript</td>
-                <td>-</td> 
-                <td>Familiar</td>
-            </tr>    
-            <tr>
-                <td>Python</td>
-                <td>-</td> 
-                <td>Familiar</td>
-            </tr>         
-            </table>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class = "full-size" id="full-size" style="background: lightblue">
+
+  <h1 class = "centerh1" >
+    Samuel B Chase
+    </h1>
+  </div>
+
+<div class="downwards">
+  <button type="down" onclick= "smoothScroll(document.getElementById('full-size2'))" >
+    Projects
+    </button>
+</div>
 
 
+</div>
 
-    </div>
-        <div onclick="location.href='https://drive.google.com/file/d/0B7rgGWwwZeKHZkF1WkEzeXpCRHc/view?usp=sharing';"class="linkbutton" ><span>Resume</span></div>
-        <div onclick="location.href='https://github.com/samuelbchase';" class="linkbutton"><span>Github</span></div>
-        <div onclick="location.href='https://profiles.looksharp.com/1686349-samuel-b-chase';" class="linkbutton"><span>Looksharp</span></div>
-        <div onclick="location.href='http://hardworlder.com';" class="linkbutton"><span>My Server</span></div>
-        <div id="backgrounddiv"></div>  
+<div class = "full-size" id="full-size2" style="background: palevioletred">
+    <h2 class = "upperleft" >
+  <h2 class = "pageHeader" >
+    Projects
+  </h2>
+
+  <div class = "projects">
+    <p class= "inProj"><b>MyHTTPD</b>: A basic web server in C with Beej Jorgensen's simple_net
+                                    <br><a>Source by request</a></p>
+  </div class = "projects">  
+
+  <div class = "projects">
+    <p class= "inProj"><b>Smake</b> - A C program that is functionally similar to Make
+                                    <br><a>Source by request</a></p>
+
+  </div class = "projects">  
+
+    <div class = "projects">
+    <p class= "inProj"><b>Guess</b>: A C program that utilizes basic machine learning techniques to make a self-modifying 20 questions like game
+                                    <br><a>Source by request</a></p>
+
+  </div class = "projects">  
+
+  <div class = "projects">
+    <p class= "inProj"><b>PolyConDB</b>: A website for Cal Poly's PolyCon board game club, including a database backend for storing event info
+                                <br><a href="https://github.com/samuelbchase/polycon">Source</a></p>
+  </div class = "projects">  
+
+  <div class = "projects">
+    <p class= "inProj"><b>PHP Ticketing</b>: A Full Stack PHP application to store user input tickets
+                            <br><a href="https://github.com/samuelbchase/ticketing_public">Source</a></p>
+  </div class = "projects">  
+
+  <div class = "projects">
+    <p class= "inProj"><b>RStockInfo</b>: A stock analysis application in R
+                        <br><a href="https://github.com/samuelbchase/StockAnalysis">Source</a></p>
+  </div class = "projects">  
+
+</div>
+
+<div class="downwards2">
+  <button type="down" onclick= "smoothScroll(document.getElementById('full-size3'))" >
+    Links
+    </button>
+</div>
+
+<div class = "full-size" id="full-size3" style="background: palegoldenrod">
+    <h2 class = "upperleft" >
+  <h2 class = "pageHeader" style="color:palegoldenrod" >
+    Links
+  </h2>
+    <a href="mailto:samuelbchase@gmail.com">
+   <img src="images/mail.svg" alt="Send me an e-mail at samuelbchase@gmail.com" title="Send me an e-mail at samuelbchase@gmail.com" style="width:40%;height:15%;">
+   </img>
+   </a>
+      <br>
+
+  <a href="https://github.com/samuelbchase">
+   <img src="images/git.svg" alt="View My Github" title="View My Github" style="width:40%;height:15%;">
+   </img>
+   </a>
+   <br>
+    <a href="https://drive.google.com/file/d/0B7rgGWwwZeKHbzUtV3VzV0t1SHc/view?usp=sharing">
+   <img src="images/resume.svg" alt="View My Resume" title="View My Resume" style="width:40%;height:15%;">
+   </a>
+      <br>
+    <a href="http://hardworlder.com">
+   <img src="images/server.svg" alt="View My Server & Projects" title="View My Server & Projects" style="width:40%;height:15%;">
+   </a>
+
+</div>
+
+<div class="downwards3">
+  <button type="down" onclick= "smoothScroll(document.getElementById('full-size'))" >
+    Top
+    </button>
+</div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+//Credit to nico on Stack Overflow for smoothscroll
+  window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
+
+
 </body>
 </html>
