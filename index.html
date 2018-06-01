@@ -24,6 +24,9 @@
     <!-- Custom styles for this template -->
     <link href="css/samuelbchase.min.css" rel="stylesheet">
 
+    <!-- JS Imports -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -85,9 +88,6 @@
 
           <hr>
 
-
-
-
           <!-- Project Two -->
           <div class="row">
 
@@ -101,6 +101,21 @@
             </div>
           </div>
           <!-- /.row -->
+          <hr>
+
+          <!-- Project 2.5 -->
+          <div class="row">
+            <div class="col-md-7">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="img/366.png" alt="">
+            </div>
+            <div class="col-md-5">
+              <h3>SapientRazorfish Data Analysis</h3>
+              <p>A team project focused on designing a database for data housed provided by SapientRazorfish, complete with data validation, sanitation, and analysis</p>
+              <a class="btn btn-primary" href="https://github.com/jamiecorr/366">View Project</a>
+            </div>
+          </div>
+          <!-- /.row -->
+
           <hr>
           <!-- Project Three -->
 
@@ -184,10 +199,11 @@
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">San Luis Obispo, CA
-          </div>
+	<script>
+            function privPolicy() {
+	        swal("Privacy Policy","We don’t store data or logs in any way, shape, or form.");
+	    }
+	</script>
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
@@ -203,7 +219,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">View My Resume</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
@@ -213,8 +229,18 @@
               </li>
             </ul>
           </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Privacy Policy</h4>
+            <ul class="list-inline mb-0" onclick="privPolicy()">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle">
+                  <i class="fa fa-fw fa-list-ul"></i>
+		</a>
+		</ul>
+          </div>
         </div>
       </div>
+    
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
