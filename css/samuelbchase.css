@@ -336,3 +336,6 @@ a:active, a:focus, a:hover {
 .code {
   content: '\f1c9';
 }
+.noCursor {
+  cursor: not-allowed;
+}
