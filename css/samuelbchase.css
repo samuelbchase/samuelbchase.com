@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Montserrat;
 }
-hr.star-dark, hr.star-light, hr.file-dark, hr.code-dark,hr.user-light {
+hr.star-dark, hr.star-light, hr.email-dark,hr.file-dark, hr.code-dark,hr.user-light {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -14,7 +14,7 @@ hr.star-dark, hr.star-light, hr.file-dark, hr.code-dark,hr.user-light {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
-hr.star-dark:after, hr.star-light:after,hr.file-dark:after,hr.code-dark:after,hr.user-light:after {
+hr.star-dark:after, hr.star-light:after,hr.file-dark:after,hr.email-dark:after,hr.code-dark:after,hr.user-light:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -61,6 +61,15 @@ hr.file-dark:after {
   background-color: #fff;
 }
 
+hr.email-dark {
+  content: '\f0e0';
+  border-color: #1E392A;
+}
+hr.email-dark:after {
+  color: #1E392A;
+  content: '\f0e0';
+  background-color: #fff;
+}
 
 hr.user-light {
   content: '\f007';
@@ -350,6 +359,9 @@ a:active, a:focus, a:hover {
 
 .file {
   content: '\f15c';
+}
+.email {
+      content: '\f0e0';
 }
 .noCursor {
   cursor: not-allowed;
