@@ -30,7 +30,9 @@
   <body id="page-top">
 
     <!-- Navigation -->
+
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Samuel B Chase</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,14 +53,11 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-
-
           </ul>
         </div>
       </div>
+      <div class="w-60 text-white"><a class="text-white nodec" href="mailto:samuelbchase@gmail.com">Email</a> \\ <a class="text-white nodec" href="http://github.com/samuelbchase">GitHub</a> \\ <a class="text-white nodec" href="resume/schase_resume.pdf">Resume</a></div>
+
     </nav>
 
     <!-- Header -->
@@ -66,52 +65,9 @@
       <div class="container vertical-center">
         <h1 class="text-uppercase mb-0">Samuel B Chase</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Software Developer</h2>
+        <!---<h2 class="font-weight-light mb-0">Software Developer</h2>-->
       </div>
-        <!---
-        <br>
-<div class="container">
-<div class="single contact-info">
-<ul class="list-inline">
-
-<li class="list-inline-item">
-<div class="icon"><i class="fa fa-phone"></i></div>
-<div class="info"><p>098-765-4321</p></div>
-</li>
-
-<li class="list-inline-item">
-<div class="icon"><i class="fa fa-envelope"></i></div>
-<div class="info"><p>info@example.com</div>
-</li>
-</ul>
-</div>
--->
     </header>
-      <script>
-      
-          window.onscroll = function() {
-              var d = document.documentElement;
-              var offset = d.scrollTop + window.innerHeight;
-              var height = d.offsetHeight;
-
-
-              if (offset+1 >= height) {
-                  console.log("Setting to Contact")
-                    var els = document.querySelectorAll("a[href='#about']");
-                    els[0].classList.remove("active")
-                    var els = document.querySelectorAll("a[href='#contact']");
-                    els[0].classList.add("active")
-              } 
-              else if(offset+100 >= height) {
-                    console.log("Setting to About")
-                    var els = document.querySelectorAll("a[href='#contact']");
-                    els[0].classList.remove("active")
-                    var els = document.querySelectorAll("a[href='#about']");
-                    els[0].classList.add("active")
-              }
-            };
-          
-      </script>
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container ">
@@ -292,55 +248,6 @@ developer intern with IQMS in Paso Robles California. This summer I will be work
         </div>
       </div>
     </section>
-        
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="email-dark mb-5">
-        <p class="text-center">        Send me an e-mail at <a href="mailto:samuelbchase@gmail.com">samuelbchase@gmail.com</a></p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">                
-                San Luis Obispo, CA
-          </p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Resume & GitHub</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://drive.google.com/open?id=0B7rgGWwwZeKHY2FNd2QxZjZ6ZWs">
-                  <i class="fa fa-fw fa-file"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/samuelbchase">
-                    <i class="fa fa-fw fa-github"></i>
-                  </a>
-              </li>
-
-            </ul>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Privacy Policy</h4>
-            <ul class="list-inline mb-0" onclick="privPolicy()">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle">
-                  <i class="fa fa-fw fa-list-ul"></i>
-		</a>
-		</ul>
-          </div>
-        </div>
-      </div>
-    
-    </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-to-top d-lg-none position-fixed ">

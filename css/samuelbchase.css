@@ -366,3 +366,6 @@ a:active, a:focus, a:hover {
 .noCursor {
   cursor: not-allowed;
 }
+.nodec {
+  text-decoration: none;
+}
