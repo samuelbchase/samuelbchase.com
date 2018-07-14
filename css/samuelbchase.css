@@ -52,12 +52,12 @@ hr.code-dark:after {
 }
 
 hr.file-dark {
-  content: '\f15c';
+  content: '\f0f6';
   border-color: #1E392A;
 }
 hr.file-dark:after {
   color: #1E392A;
-  content: '\f15c';
+  content: '\f0f6';
   background-color: #fff;
 }
 
@@ -358,7 +358,7 @@ a:active, a:focus, a:hover {
 }
 
 .file {
-  content: '\f15c';
+  content: '\f0f6';
 }
 .email {
       content: '\f0e0';
