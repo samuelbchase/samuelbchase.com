@@ -36,6 +36,10 @@
     offset: 80
   });
 
+  window.onscroll = function (e) {
+    window.focus();
+  }
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
