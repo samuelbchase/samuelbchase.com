@@ -456,10 +456,11 @@ a {
     transform-origin: left top;
     transform: scale(1, 1);
 }
-
-#about{
-  position:relative;
-     padding-top: 460px;
-    margin-top: -400px;
-    z-index:0;
+@media (min-width: 767px) {
+  #about{
+    position:relative;
+       padding-top: 460px;
+      margin-top: -400px;
+      z-index:0;
+  }
 }
