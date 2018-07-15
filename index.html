@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -22,12 +22,12 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/samuelbchase.min.css" rel="stylesheet">
+    <link href="css/samuelbchase.css" rel="stylesheet">
 
 
   </head>
 
-  <body id="page-top">
+  <body data-spy="scroll" data-target="#mainNav">
 
     <!-- Navigation -->
 
@@ -48,14 +48,14 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#publications">Publications</a>
+              <a id ="secondToLast"class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#publications">Publications</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a  id ="last" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
           </ul>
         </div>
-        <div class="text-white small ml-auto" ><a class="text-white nodec" href="mailto:samuelbchase@gmail.com">Email</a> // <a class="text-white nodec" href="http://github.com/samuelbchase">GitHub</a> // <a class="text-white nodec" href="resume/schase_resume.pdf">Resume</a></div>
+        <div class="text-white small ml-auto" ><a class="text-white nodec externalLinkMenu" href="mailto:samuelbchase@gmail.com">Email</a> &nbsp <a class="text-white nodec externalLinkMenu" href="http://github.com/samuelbchase">GitHub</a>  &nbsp <a class="text-white nodec externalLinkMenu" href="pdfs/schase_resume.pdf">Resume</a></div>
 
       </div>
 
@@ -64,9 +64,10 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center" id="home">
       <div class="container vertical-center">
-        <h1 class="text-uppercase mb-0">Samuel B Chase</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Software Developer</h2>
+        <h1 class="text-uppercase mb-0">Samuel B. Chase</h1>
+        <br>
+        <br>
+        <h2 class="font-weight-light mb-0">Full-Stack Developer - Personal Finance Hobbyist</h2>
       </div>
     </header>
     <!-- Portfolio Grid Section -->
@@ -84,7 +85,12 @@
             </div>
             <div class="col-md-5">
               <h3>whisper.io</h3>
-              <p>An encrypted chat application using SocketIO, NodeJS and MySQL.</p>
+              <p>An encrypted chat application using SocketIO, NodeJS and MySQL, written by a team of Cal Poly students. We sought to learn about security principles as well as
+              development principles, by focusing on encrypting messages and user information ourselves. We learned about good hashing practices,
+              configuring a TLS 1.2 server with SocketIO, and writing real-time, asynchronous, and scalable programs. I took part in writing the skeleton
+              of the frontend, hooking it up to the backend, and about half of the backend socketIO message transmission logic.</p>
+              <h5>Technologies</h5>
+              <p> NodeJS, SocketIO, Express, HTML/CSS</p>
               <a class="btn btn-primary" href="https://github.com/samuelbchase/WhisperIO">View Project</a>
             </div>
           </div>
@@ -95,32 +101,21 @@
             <br>
             <hr>
 
-          <!-- Project Two -->
-          <div class="row">
 
-            <div class="col-md-7">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="img/polycon.png" alt="">
-            </div>
-            <div class="col-md-5">
-              <h3>PolyCon Website</h3>
-              <p>An HTML/CSS/JS/PHP website for Cal Poly's PolyCon board game club</p>
-              <a class="btn btn-primary" href="https://github.com/samuelbchase/polycon">View Project</a>
-            </div>
-          </div>
-          <!-- /.row -->
-            <br>
-            <br>
-            <br>
-          <hr>
 
-          <!-- Project 2.5 -->
+          <!-- Project two -->
           <div class="row">
             <div class="col-md-7">
                 <img class="img-fluid rounded mb-3 mb-md-0" src="img/366.png" alt="">
             </div>
             <div class="col-md-5">
               <h3>SapientRazorfish Data Analysis</h3>
-              <p>A team project focused on designing a database for data housed provided by SapientRazorfish, complete with data validation, sanitation, and analysis</p>
+              <p>A team project focused on designing a database for data housed provided by SapientRazorfish, complete with data validation, sanitation, and analysis.
+              We sought to clean data, develop a database schema, and create analysis tools based on our new database. We learned the difficulty of sanitizing bad data,
+              normal form and database design theory, how to explain analyzed data to shareholders (both verbally and via documents), and got to practice our SQL skills.
+              Our team split work evenly, and we all took part in every step of the process.</p>
+              <h5>Technologies</h5>
+              <p> SQL, Python</p>
               <a class="btn btn-primary" href="https://github.com/jamiecorr/366">View Project</a>
             </div>
           </div>
@@ -139,7 +134,11 @@
             </div>
             <div class="col-md-5">
               <h3>MyHTTPD</h3>
-              <p>A basic web server in C with Beej Jorgensen's simple_net guidelines. Capable of handling multiple connections by forking processes, and serving up basic HTML</p>
+              <p>A basic web server in C with Beej Jorgensen's simple_net guidelines. Capable of handling multiple connections by forking processes, and serving up basic HTML.
+              This project emphasized learning the basic underpinnings of the web, HTTP, and REST. Performance considerations necessitated an understanding of process
+              forking.</p>
+              <h5>Technologies</h5>
+              <p>GNU99 C, REST, HTTP</p>
               <div class="btn btn-warning disabled noCursor">Source By Request</div>
             </div>
           </div>
@@ -149,6 +148,27 @@
             <br>
             <br>
             <hr>
+            <!-- Project 3.5 -->
+            <div class="row">
+
+              <div class="col-md-7">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="img/polycon.png" alt="">
+              </div>
+              <div class="col-md-5">
+                <h3>PolyCon Website</h3>
+                <p>A website for Cal Poly's PolyCon board game club. The emphasis was serving static content
+                with a pretty interface, but also to connect to a database to show planned events at upcoming convention.</p>
+                <h5>Technologies</h5>
+                <p> JavaScript, PHP, HTML/CSS</p>
+                <a class="btn btn-primary" href="https://github.com/samuelbchase/polycon">View Project</a>
+              </div>
+            </div>
+            <!-- /.row -->
+              <br>
+              <br>
+              <br>
+            <hr>
+
           <!-- Project Four -->
 
           <div class="row">
@@ -157,7 +177,10 @@
             </div>
             <div class="col-md-5">
               <h3>Smake</h3>
-              <p>A C program that is functionally similar to Make </p>
+              <p>A C program that is functionally similar to Make. In reimplementing Make we practiced low level string parsing and creation of dependency linked lists, as well as
+              pointer management in C data structures. The implementation both required strong knowledge of Make, as well as the ability to comfortably traverse, reverse, and insert into C linked lists</p>
+              <h5>Technologies</h5>
+              <p>ANSI C</p>
               <div class="btn btn-warning disabled noCursor">Source By Request</div>
             </div>
           </div>
@@ -176,30 +199,16 @@
             </div>
             <div class="col-md-5">
                 <h3>Shiny College Scorecard</h3>
-                  <p>An application for the US Department of Education's College Scorecard. Written in R, and using the Shiny interactive web package </p>
+                  <p>An application for the US Department of Education's College Scorecard. Written in R, and using the Shiny interactive web package. The program
+                    offered many tools to analyze and filter data, such as by region, average ACT, or institution type. Our development team worked side by side to apply our
+                    knowledge of R and data analysis while learning the Shiny syntax.
+                  </p>
+                  <h5>Technologies</h5>
+                  <p>R, Shiny</p>
                   <a class="btn btn-primary" href="https://github.com/parose/shinyCollegeScorecard">View Project</a>
             </div>
           </div>
           <!-- /.row -->
-            <br>
-            <br>
-            <br>
-          <hr>
-
-          <!-- Project Six -->
-          <div class="row">
-
-            <div class="col-md-7">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="img/guess.png" alt="">
-            </div>
-            <div class="col-md-5">
-              <h3>Guess</h3>
-              <p>A C program that utilizes basic machine learning techniques to make a self-modifying 20 questions like game</p>
-              <div class="btn btn-warning disabled noCursor">Source By Request</div>
-            </div>
-          </div>
-          <!-- /.row -->
-
 
       </div>
     </section>
@@ -219,35 +228,32 @@
             </div>
             <div class="col-md-5">
               <h3>Senior Project</h3>
-              <p>Development of an algorithm to create spanning trees on graphs with per-vertex degree constraints</p>
-              <a class="btn btn-primary" href="#">View Paper</a>
+              <p>Developing an algorithm to find spanning trees on graphs with per-vertex degree constraints.</p>
+              <a class="btn btn-primary" href="pdfs/SeniorProject.pdf">View Paper</a>
             </div>
           </div>
           <!-- /.row -->
 
       </div>
     </section>
-        
+
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="user-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-		  <p class="lead">I am a Software Developer with an emphasis on back-end and full stack web
-technologies. I enjoy working with Java, the Microsoft Stack, C, JavaScript, and SQL
-Databases. In my spare time I work on my senior project - developing packing
-algorithms for graphs with per-vertex degree constraints.</p>
-	  </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">I am currently employed as a Full-Stack developer with the Cal Poly
-Administration and Finance Division. I have previously worked on automated
-software deployment tools with SpaceX in McGregor Texas, and as a full-stack web
-developer intern with IQMS in Paso Robles California. This summer I will be working on TurboTax with Intuit in San Diego<p>
-          </div>
-        </div>
-      </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-sm-10">
+              <p class="lead" style="text-align: justify;">I'm a full stack developer with an emphasis in API development & internal tools. I currently work as a backend developer intern at Intuit.</p>
+              </div>
+              <div class="col-lg-10 col-sm-10">
+                <p class="lead" style="text-align: justify;">Outside of work, I enjoy playing board games and learning about personal finance. I love working for Intuit because I get to help write the software that I use every day.<p>
+    </div>
+              <div class="col-lg-10 col-sm-10">
+                <p class="lead" style="text-align: justify;">Before my internship at Intuit, I was a Full-Stack developer with the Cal Poly Administration and Finance Division. I have also previously worked on automated software deployment tools with SpaceX, and as a full-stack intern on IQMS’s Web API. </p>
+            </div>
+
+    </div>
     </section>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) 
@@ -272,11 +278,11 @@ developer intern with IQMS in Paso Robles California. This summer I will be work
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-    
+    <script src="js/freelancer.js"></script>
+
     <!-- JS Imports -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        
+
   </body>
 
 </html>
