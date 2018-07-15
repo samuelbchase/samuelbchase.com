@@ -264,8 +264,11 @@ header.masthead h2 {
   font-size: 2rem;
 }
 #publications {
+  position:relative;
    margin-bottom: -15px;
    background-color: #edf7fc;
+   z-index:1;
+
  }
 @media (min-width:768px) {
   .portfolio-modal .portfolio-modal-dialog {
@@ -455,6 +458,8 @@ a {
 }
 
 #about{
-  padding-top: 60px;
-  margin-top: -40px;
+  position:relative;
+     padding-top: 460px;
+    margin-top: -400px;
+    z-index:0;
 }
