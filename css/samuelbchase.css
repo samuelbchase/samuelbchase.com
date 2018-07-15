@@ -167,9 +167,12 @@ section h2 {
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
+    background: #3CC47C;
+
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
+    background: #3CC47C;
   }
   #mainNav.navbar-shrink {
     padding-top: .5rem;
@@ -442,20 +445,4 @@ a {
 .externalLinkMenu:hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
-}
-
-.active:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  background: #9CF5A6;
-  visibility: hidden;
-  border-radius: 5px;
-  transform: scaleX(0);
-  transition: .25s linear;
-}
-.active:hover:before,
-.active:focus:before {
-  visibility: visible;
-  transform: scaleX(1);
 }
