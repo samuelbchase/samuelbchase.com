@@ -2,9 +2,16 @@ body {
   font-family: Lato;
   background-color: #2e034f;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-weight: 700;
-  font-family: Futura;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
 }
 hr.star-dark, hr.star-light, hr.email-dark,hr.file-dark, hr.code-dark,hr.user-light,hr.none-light  {
   max-width: 15rem;
@@ -167,12 +174,12 @@ section h2 {
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
-    background: #3CC47C;
+    background: #7e5b99;
 
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
-    background: #3CC47C;
+    background: #7e5b99;
   }
   #mainNav.navbar-shrink {
     padding-top: .5rem;
@@ -445,4 +452,9 @@ a {
 .externalLinkMenu:hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
+}
+
+#about{
+  padding-top: 60px;
+  margin-top: -40px;
 }

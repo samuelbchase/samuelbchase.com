@@ -36,9 +36,6 @@
     offset: 80
   });
 
-  window.onscroll = function (e) {
-    window.focus();
-  }
 
   // Collapse Navbar
   var navbarCollapse = function() {
