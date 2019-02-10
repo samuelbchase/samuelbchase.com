@@ -1,2 +1,2 @@
-# http://samuelbchase.com
-My Personal Portfolio
+# My Personal Website
+https://www.samuelbchase.com/
