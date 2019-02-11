@@ -1,2 +1,2 @@
 # My Personal Website
-https://www.samuelbchase.com/
+https://samuelbchase.com/
